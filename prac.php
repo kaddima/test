@@ -16,6 +16,10 @@
             return $this->name;
         }
 
+        /**this function returns users age
+         * @return mixed
+         *
+         */
         public function getAge(){
 
             return $this->age;
