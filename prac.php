@@ -33,6 +33,8 @@
     }
 
 
+    $obj = new Personal('williams',22);
+
 
 
 ?>
