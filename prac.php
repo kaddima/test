@@ -25,12 +25,14 @@
             return $this->age;
         }
 
+        public function callProfile(){
+
+            echo $this->name . ' '. $this->age;
+        }
+
     }
 
 
-    $obj = new Personal('kadima',22);
-
-    echo $obj->callName();
 
 
 ?>
