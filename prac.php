@@ -25,6 +25,10 @@
             return $this->age;
         }
 
+        /**
+         * This function calls out name and age
+         */
+
         public function callProfile(){
 
             echo $this->name . ' '. $this->age;
